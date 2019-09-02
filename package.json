@@ -1,0 +1,27 @@
+{
+  "name": "liu-cli",
+  "version": "1.0.0",
+  "description": "<%=description%>",
+  "private": "<%=private%>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "liu-cli": "./bin/www"
+  },
+  "autor": "<%=author%>",
+  "license": "<%=license%>",
+  "devDependencies": {
+    "chalk": "^2.4.2",
+    "commander": "^3.0.1",
+    "download-git-repo": "^2.0.0",
+    "inquirer": "^7.0.0",
+    "metalsmith": "^2.3.0",
+    "ncp": "^2.0.0",
+    "ora": "^3.4.0"
+  },
+  "dependencies": {
+    "axios": "^0.19.0"
+  }
+}
